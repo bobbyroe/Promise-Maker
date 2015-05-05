@@ -29,7 +29,7 @@ function makePromise () {
     }
 
     return {
-      when: function(func) {
+      then: function(func) {
         vouch('fulfilled', func);
       },
 
